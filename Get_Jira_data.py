@@ -19,5 +19,5 @@ for user in users:
   )
   data = response.json()
   #print(data)
-  print("Felhasználó: "+data['displayName']+ ", " +data['emailAddress'])
+  print("User: "+data['displayName']+ ", " +data['emailAddress'])
   print(response.status_code)
