@@ -22,4 +22,4 @@ for item in user:
   if not data:
     print("Nincs adat")
   else:  
-    print(data[0]['accountId'])
+    print(data[0]['accountId']", "+data[0]['displayName'])
